@@ -32,13 +32,13 @@ something goes wrong you're back where you started and can just re-run it. If it
 ## THESOLUTION - TROUBLESHOOTING AND CONFIGURATION
 
 **NO PYTHON?**
-1. `INSTALL.bat` will tell you.
-2. Get it from python.org/downloads and TICK "Add python.exe to PATH" during setup.
-3. Then run `INSTALL.bat` again.
+1. `INSTALL.bat` will tell you
+2. Get it from python.org/downloads and TICK "Add python.exe to PATH" during setup
+3. Then run `INSTALL.bat` again
 
 **IT COULDN'T FIND TF2?**
-1. Steam -> right-click TF2 -> Manage -> Browse local files.
-2. Copy the address bar, paste it in when it asks.
+1. Steam -> right-click TF2 -> Manage -> Browse local files
+2. Copy the address bar, paste it in when it asks
 
 **CROSSHAIR NOT SHOWING?**
 1. Console (~ key):
@@ -46,7 +46,7 @@ something goes wrong you're back where you started and can just re-run it. If it
     `crosshair 1`
 2. Restart the game. If `~` does nothing:
     Options -> Keyboard -> Advanced -> tick "Enable developer console"
-3. If the console still refuses to appear, it is possible that you re-bound the `toggleconsole` key away from its default, which is `~`.
+3. If the console still refuses to appear, it is possible that you re-bound the `toggleconsole` key away from its default, which is `~`
 4. If you suspect that this may be the case, you can re-bind it via:
     Options -> Keyboard -> scroll to Miscellaneous -> {read the current assigned key | click the associated option to re-bind it}
 
@@ -61,15 +61,15 @@ If it isn't working and the information above cannot remediate the issue, please
 ## THESOLUTION - UNINSTALLATION
 
 1. Delete `tf\custom\thesolution` (the installer prints the exact path when it finishes)
-2. To undo the config bit too: `tf\cfg\autoexec.cfg`, delete the two lines under `// thesolution crosshair`.
+2. To undo the config bit too: `tf\cfg\autoexec.cfg`, delete the two lines under `// thesolution crosshair`
 
 ## THESOLUTION - NOTES
 
-   - Safe, relative to Valve Anti-Cheat (VAC). It's just a Valve-asset formatted image + text files in TF2's own custom folder.
-   - Works alongside custom HUDs.
-   - Your `autoexec.cfg` gets backed up to `autoexec.cfg.bak` before any change.
-   - A few community servers (`sv_pure 2`) force default crosshairs. Casual is fine.
-   - Re-running it is harmless, it just reinstalls.
+   - Safe, relative to Valve Anti-Cheat (VAC). It's just a Valve-asset formatted image + text files in TF2's own custom folder
+   - Works alongside custom HUDs
+   - Your `autoexec.cfg` gets backed up to `autoexec.cfg.bak` before any change
+   - A few community servers (`sv_pure 2`) force default crosshairs. Casual is fine
+   - Re-running it is harmless, it just reinstalls
 
 ### THESOLUTION - MORE
 
