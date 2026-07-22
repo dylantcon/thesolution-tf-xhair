@@ -1,6 +1,6 @@
 # THESOLUTION CROSSHAIR
 
-This repository contains custom content for Team Fortress 2, a first-person shooter title by Valve Software. It replaces the crosshair for all mercenaries and their weapons with a small, minimal hollow cross, composed of four orthogonal rectangles with their inner most edges resting on the perimeter of the square center hole, such that the innermost two corners touch their neighbors.
+This repository contains custom content for Team Fortress 2, a first-person shooter title by Valve Software. It replaces the crosshair for all mercenaries and their weapons with a small, minimal hollow cross. It is composed of four orthogonal rectangles with their centermost edges resting on the perimeter of the square center hole, each oriented such that its centermost two corners touch the corners of two neighboring perpendicular rectangles.
 
 I have found it quite effective; it allows me to maintain higher overall accuracy with all mercenaries, particularly Scout. With that said, it's perfect for any class, and I highly recommend it for Sniper mains. Let me know what you think!
 
