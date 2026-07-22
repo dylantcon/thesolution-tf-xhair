@@ -2,7 +2,7 @@
 
 This repository contains custom content for Team Fortress 2, a first-person shooter title by Valve Software. It replaces the crosshair for all mercenaries and their weapons with a small, minimal hollow cross, composed of four orthogonal rectangles with edges resting on the perimeter of the square center hole, such that the innermost two corners touch their neighbors.
 
-I have found it quite effective; it allows me to maintain higher overall accuracy with all weapons. Let me know what you think!
+I have found it quite effective; it allows me to maintain higher overall accuracy with all mercenaries, particularly Scout. With that said, it's perfect for any class, I highly recommend it for Sniper mains. Let me know what you think!
 
 ## THESOLUTION - WHAT YOU GET
 
@@ -18,7 +18,7 @@ For scripted (automatic) installation, you should have Python (tested and workin
 
 1. Close TF2.
 2. Clone this repository (or, if packaged into an archive, unpackage) anywhere.
-3. Double-click INSTALL.bat (if publisher verification warning appears, click yes)
+3. Double-click `INSTALL.bat` (if publisher verification warning appears, click yes)
 4. It finds TF2 and asks one question. Say yes.
 5. Open TF2.
 
@@ -32,9 +32,9 @@ something goes wrong you're back where you started and can just re-run it. If it
 ## THESOLUTION - TROUBLESHOOTING AND CONFIGURATION
 
 **NO PYTHON?**
-1. INSTALL.bat will tell you.
+1. `INSTALL.bat` will tell you.
 2. Get it from python.org/downloads and TICK "Add python.exe to PATH" during setup.
-3. Then run INSTALL.bat again.
+3. Then run `INSTALL.bat` again.
 
 **IT COULDN'T FIND TF2?**
 1. Steam -> right-click TF2 -> Manage -> Browse local files.
@@ -65,9 +65,9 @@ If it isn't working and the information above cannot remediate the issue, please
 
 ## THESOLUTION - NOTES
 
-   - Safe on VAC. It's an image + text files in TF2's own custom folder.
+   - Safe, relative to Valve Anti-Cheat (VAC). It's just a Valve-asset formatted image + text files in TF2's own custom folder.
    - Works alongside custom HUDs.
-   - Your autoexec.cfg gets backed up to autoexec.cfg.bak before any change.
+   - Your `autoexec.cfg` gets backed up to `autoexec.cfg.bak` before any change.
    - A few community servers (`sv_pure 2`) force default crosshairs. Casual is fine.
    - Re-running it is harmless, it just reinstalls.
 
